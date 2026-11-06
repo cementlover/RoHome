@@ -1,6 +1,11 @@
 # RoHome
 Roblox browser extension to hide homepage and sidebar clutter.
 Currently compatible with Chrome and Brave. Firefox untested.
+Only compatible with the latest Roblox web UI.
+Old UI has different frame keys which won't be recognised by this extension.
+
+# Disclaimer
+This is not an official Roblox extension. This will not cause your Roblox homepage to load faster because this extension merely unloads elements, rather than preventing them from loading altogether.
 
 # UI
 <img width="220" height="404" alt="Screenshot 2026-11-06 192654" src="https://github.com/user-attachments/assets/b8bd7b7f-fd2c-4aa2-b768-198698d5946a" />
