@@ -12,6 +12,8 @@ This is not an official Roblox extension. This will not cause your Roblox homepa
 
 
 # Installation
+Step 1: Unzip the archive from Releases.
+
 Step 1: Open the extension manager in your browser. Usually done by clicking your extenions button in the top right, then clicking "Advanced" or "Manage extensions".
 
 Step 2: Enable developer mode. Usually a toggle in the top right/left depending on browser.
