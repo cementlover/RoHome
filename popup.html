@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Styling for the little menu -->
+    <style> 
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        width: 220px;
+        padding: 14px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        background-color: #2e2e2e;
+        color: #e0e0e0;
+        border: 3px solid #555;
+        border-radius: 14px;
+        overflow: hidden;
+      }
+
+      h3 {
+        margin-bottom: 12px;
+        font-size: 15px;
+        color: #ffffff;
+      }
+
+      h4 {
+        margin: 12px 0 8px 0;
+        font-size: 11px;
+        color: #aaaaaa;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+      }
+
+      .toggle-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+        color: #d0d0d0;
+      }
+
+      input[type="checkbox"] {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+        accent-color: #888;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid #444;
+        margin: 8px 0;
+      }
+    </style>
+  </head>
+
+  <!-- Menu contents -->
+  <body>
+    <h3>Roblox Feed Cleaner</h3>
+
+    <h4>Home Page</h4>
+    <div class="toggle-row">
+      <label for="hideRecommended">Hide Recommended</label>
+      <input type="checkbox" id="hideRecommended" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideEvents">Hide Events</label>
+      <input type="checkbox" id="hideEvents" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideFooter">Hide Footer</label>
+      <input type="checkbox" id="hideFooter" />
+    </div>
+
+    <hr>
+    <h4>Sidebar</h4>
+    <div class="toggle-row">
+      <label for="hideProfile">Hide Profile</label>
+      <input type="checkbox" id="hideProfile" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideInventory">Hide Inventory</label>
+      <input type="checkbox" id="hideInventory" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideBlog">Hide Blog</label>
+      <input type="checkbox" id="hideBlog" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideOfficialStore">Hide Official Store</label>
+      <input type="checkbox" id="hideOfficialStore" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideGiftCards">Hide Gift Cards</label>
+      <input type="checkbox" id="hideGiftCards" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideRobloxPlusNav">Hide Roblox Plus Button</label>
+      <input type="checkbox" id="hideRobloxPlusNav" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideRobloxPlus">Hide Roblox Plus AD</label>
+      <input type="checkbox" id="hideRobloxPlus" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideFriends">Hide Friends</label>
+      <input type="checkbox" id="hideFriends" />
+    </div>
+    <div class="toggle-row">
+      <label for="hideFavourites">Hide Favourites</label>
+      <input type="checkbox" id="hideFavourites" />
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
