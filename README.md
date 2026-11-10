@@ -4,7 +4,7 @@ Currently compatible with Chrome and Brave. Firefox untested.
 Only compatible with the latest Roblox web UI.
 Old UI has different frame keys which won't be recognised by this extension.
 
-# Disclaimer
+# Disclaimer(s)
 This is not an official Roblox extension. This will not cause your Roblox homepage to load faster because this extension merely unloads elements, rather than preventing them from loading altogether. AI has been used to read the DOM of the homepage and sidebar, as well as design of the UI.
 
 # UI
